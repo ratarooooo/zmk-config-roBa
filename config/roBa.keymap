@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                                  &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp MINUS                       &kp EQUAL                 &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mt LANGUAGE_1 COLON            &mt LANGUAGE_2 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 BACKSPACE      &kp SPACE                 &lt 1 ENTER                             &lt_to_layer_0 6 DEL
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                        &kp G        &kp MINUS                       &kp EQUAL            &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mt LANG2 COLON                 &mt LANG1 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 3 LANGUAGE_2  &lt 2 SPACE  &lt_to_layer_0 3 BACKSPACE      &kp SPACE            &lt 1 ENTER                             &lt_to_layer_0 6 DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -120,10 +120,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans      &trans  &trans         &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &kp K_BACK  &trans  &kp K_FORWARD  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans      &trans  &trans         &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans      &trans  &trans         &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
